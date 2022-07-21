@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import Navbar2 from "./Navbar2";
 import contact from "../images/boy.svg";
-import "./contact.css";
+import "../components/assets/contact.css";
 
 import Footer from "./Footer";
 export default function Contact() {

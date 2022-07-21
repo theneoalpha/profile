@@ -1,5 +1,5 @@
 import React from "react";
-import "./skill.css";
+import "../components/assets/skill.css";
 import Navbar2 from "./Navbar2";
 import Footer from "./Footer";
 export default function Skill() {
