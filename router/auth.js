@@ -11,9 +11,9 @@ const User = require("../model/userSchema");
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 
-router.get("/", (req,res)=>{
-  res.send("Hellow");
-})
+// router.get("/", (req,res)=>{
+//   res.send("Hellow");
+// })
 
 router.post("/contact", async (req, res) => {
   res.cookie("jwtoken","vikash");
