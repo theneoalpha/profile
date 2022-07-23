@@ -81,7 +81,7 @@ res.cookie('jwtoken',token,{expires: new Date(Date.now()+25892000000), httpOnly:
       res.status(400).json({error:"Invalid credentials"})
     }
     else{
-      res.json({message:"User Signin Successfully"})
+      // res.json({message:"User Signin Successfully"})
     }
 
 
