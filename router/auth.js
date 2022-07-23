@@ -36,7 +36,7 @@ router.post("/contact", async (req, res) => {
     const saveMethod = await user.save();
     if (saveMethod) {
        
-      res.status(201).json({ message: "User registered successfully" });
+      // res.status(201).json({ message: "User registered successfully" });
       
     
 
@@ -81,7 +81,7 @@ res.cookie('jwtoken',token,{expires: new Date(Date.now()+25892000000), httpOnly:
       res.status(400).json({error:"Invalid credentials"})
     }
     else{
-      // res.json({message:"User Signin Successfully"})
+      res.json({message:"User Signin Successfully"})
     }
 
 
