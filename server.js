@@ -36,19 +36,19 @@ const PORT = process.env.PORT || 8000;
 //another attempt
 
 __dirname = path.resolve();
-if(process.env.NODE_ENV === 'production'){
+// if(process.env.NODE_ENV === 'production'){
     app.use(express.static(path.join(__dirname,'./client/build')));
     app.get('*',(req,res)=>{
         res.sendFile(path.resolve(__dirname,'client','build','index.html'));
     })
    
-}
-else{
-    app.get("/",(req,res)=>{
-        res.send("API is running...");
-    })
+// }
+// else{
+//     app.get("/",(req,res)=>{
+//         res.send("API is running...");
+//     })
 
-
+// }
 // const root = require('path').join(__dirname, 'client', 'build')
 // app.use(express.static(root));
 // app.get("*", (req, res) => {
@@ -61,7 +61,7 @@ else{
 // })
 
 // app.use(express.static('client/build'));
-}
+
 
 app.listen(PORT,()=>{
 console.log("Listening at port 5000");
