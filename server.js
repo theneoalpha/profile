@@ -37,31 +37,29 @@ const PORT = process.env.PORT || 8000;
 
 __dirname = path.resolve();
 // if(process.env.NODE_ENV === 'production'){
-    app.use(express.static(path.join(__dirname,'./client/build')));
-    app.get('*',(req,res)=>{
-        res.sendFile(path.resolve(__dirname,'client','build','index.html'));
-    })
-   
-    // app.use(express.static(path.join(__dirname + '/public')))
-// }
-// else{
-//     app.get("/",(req,res)=>{
-//         res.send("API is running...");
+//     app.use(express.static(path.join(__dirname,'./client/build')));
+//     app.get('*',(req,res)=>{
+//         res.sendFile(path.resolve(__dirname,'client','build','index.html'));
 //     })
+   
+   
+//  }
 
-// }
-// const root = require('path').join(__dirname, 'client', 'build')
-// app.use(express.static(root));
-// app.get("*", (req, res) => {
-//     res.sendFile('index.html', { root });
-// })
 
-// app.get("*", (req, res) => {
-//     res.sendFile(require('path')
-//         .resolve(__dirname, 'client', 'build', 'index.html'));
-// })
+if(process.env.NODE_ENV === 'production'){
+    app.use(express.static(path.join(__dirname,'/client/build')))
+    app.get('*',(req,res)=>{
+        res.sendFile(path.resolve(__dirname,"client","build","index.html"))
+    })
+}
 
-// app.use(express.static('client/build'));
+else{
+    app.get("/",(req,res)=>{
+        res.send("API is running...");
+    })
+
+}
+
 
 
 app.listen(PORT,()=>{
