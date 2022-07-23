@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 import Navbar2 from "./Navbar2";
 import contact from "../images/boy.svg";
 import "../components/assets/contact.css";
 
 import Footer from "./Footer";
 export default function Contact() {
-  
+  let navigate = useNavigate();
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -25,7 +25,7 @@ export default function Contact() {
     setUser({ ...user, [name]: value });
 
     PostData = async (e) => {
-      
+      navigate.push("/thankyou");
         
     
       e.preventDefault();
