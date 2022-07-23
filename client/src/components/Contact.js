@@ -66,7 +66,7 @@ export default function Contact() {
         <div className="container mt-5">
            <h2 className="form-title">Contact</h2>
           <div className="contact-content">
-            <img src={contact} alt='Image' />
+            <img src={contact} alt='human' />
             <div className="contact-form">
              
               <form method="POST" className="contactpage-form">
