@@ -18,7 +18,7 @@ body{
   }
   
   .progress {
-    background: orange;
+    background:  #ffcf2e;
     justify-content: flex-start;
     border-radius: 100px;
     align-items: center;
@@ -111,7 +111,7 @@ span{
     font-size: 50px;
 }
 span {
-    color: orange;
+    color: #ffcf2e;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -297,7 +297,7 @@ span {
 }
 
 .videoimage img:hover {
-    border: 3px solid orange;
+    border: 3px solid #ffcf2e;
 }
 
 
@@ -306,7 +306,7 @@ span {
     border-radius: 5600px;
     display: block;
     margin: auto;
-    border: 3px solid orange;
+    border: 3px solid #ffcf2e;
 }
 
 .webimage img {
@@ -314,7 +314,7 @@ span {
     border-radius: 5600px;
     display: block;
     margin: auto;
-    border: 3px solid orange;
+    border: 3px solid #ffcf2e;
 }
 
 .videoimage img {
@@ -322,7 +322,7 @@ span {
     border-radius: 5600px;
     display: block;
     margin: auto;
-    border: 3px solid orange;
+    border: 3px solid #ffcf2e;
 
 }
 
@@ -407,7 +407,7 @@ span {
       display: flex;
 
 
-      color: orange;
+      color: #ffcf2e;
   }
   nav ul{
       display: none;
