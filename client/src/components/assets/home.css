@@ -497,7 +497,7 @@ span {
 }
 
 .detail h1,span{
-    margin-left: 2vh;
+    margin-left: 0vh;
     font-size: 1.4rem;
 }
 .detail h2{
