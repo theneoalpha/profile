@@ -497,7 +497,7 @@ span {
 }
 
 .detail h1,span{
-    margin-left: 0vh;
+    margin-left: 2vh;
     font-size: 1.4rem;
 }
 .detail h2{
@@ -511,6 +511,7 @@ span {
 }
 .detail a{
     padding: 4px 9px;
+    margin-left: -1rem;
 } .image{
     position: relative;
 }
@@ -534,17 +535,18 @@ nav ul li{
         height: 135vh;
     }
     .image{
-        right: -8.3999999999rem;
+        right: -8.4rem;
         width: 47%;
         height: 85%;
 
     }
     
     }
-     
+    @media  screen and (max-width:413px) {.image{    right: -8.1rem}}
   @media  screen and (max-width:390px) {
       .myskills {
           top: -22vh;
+          height: 49vh;
       }.thirdpage{
     top: 21vh;
     height: 155vh;
@@ -553,6 +555,20 @@ nav ul li{
     width: 50%;
     height: 80%;
     right: -8.9rem;
+    
 }
       
   }
+  @media  screen and (max-width:395px) {.image{    right: -7.9rem;}}
+  @media  screen and (max-width:380px) {
+    .image {
+        
+        right: -8.9rem;
+        
+    }
+    #footer{
+        margin-top: 20vh;
+    }
+  }
+  @media  screen and (max-width:370px) {.image{right: -7.5rem; top: -24vh;}}
+  
