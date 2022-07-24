@@ -9,7 +9,7 @@
     width: 184px;
     animation: typing 2s steps(12), blink .5s step-end infinite alternate;
     white-space: nowrap;
-    font-weight: bold;
+   
     font-family: 'Macondo', cursive;
     overflow: hidden;
     border-right: 3px solid;
