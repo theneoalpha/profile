@@ -10,6 +10,7 @@
     animation: typing 2s steps(12), blink .5s step-end infinite alternate;
     white-space: nowrap;
     font-weight: bold;
+    color: #eff4fd;
     font-family: 'Macondo', cursive;
     overflow: hidden;
     border-right: 3px solid;
@@ -38,6 +39,7 @@
 }
 .navbar{
     background-color: purple;
+    color: #eff4fd;
 }
 
 @media screen and (max-width: 468px) {

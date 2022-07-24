@@ -63,7 +63,15 @@ body{
         100% { width: 58%; }
       }
 
-  
+      .navbar-toggler{
+        color:#eff4fd;
+      }
+      .navbar-toggler-icon{
+        filter: invert(1);
+      }
+      .nav-link{
+        color: #eff4fd;
+      }
   
     @keyframes load2 {
         0% { width: 0; }
@@ -108,7 +116,7 @@ span {
 }
 
 .detail h2 {
-    color: rgb(0, 0, 0);
+    color: #eff4fd;
     font-size: 38px;
     opacity: 0.4;
     
@@ -465,7 +473,10 @@ span {
     height: 170vh;
 } */
 @media  screen and (max-width:768px){
-.first{
+    .navbar-toggler-icon{
+        margin-left: 0px;
+    }
+    .first{
     top: 1rem;
 }
 .second{
