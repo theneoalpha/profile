@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-
+import { useNavigate } from 'react-router-dom';
 import Navbar2 from "./Navbar2";
 import contact from "../images/boy.svg";
 import "../components/assets/contact.css";
 
 import Footer from "./Footer";
 export default function Contact() {
-  
+  const navigate = useNavigate();
   const [user, setUser] = useState({
     name: "",
     email: "",
@@ -26,7 +26,7 @@ export default function Contact() {
 
     PostData = async (e) => {
       
-        
+        res.send("Hellow ths is vikash");
     
       e.preventDefault();
       
@@ -66,7 +66,7 @@ export default function Contact() {
         <div className="container mt-5">
            <h2 className="form-title">Contact</h2>
           <div className="contact-content">
-            <img src={contact} alt='human' />
+            <img src={contact} />
             <div className="contact-form">
              
               <form method="POST" className="contactpage-form">

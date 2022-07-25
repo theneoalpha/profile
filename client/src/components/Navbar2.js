@@ -1,6 +1,11 @@
 import React from 'react'
 import "../components/assets/navbar.css";
 import { Link } from "react-router-dom";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
 export default function Navbar2() {
   return (
     <>
@@ -52,7 +57,12 @@ export default function Navbar2() {
          <li className="nav-item  mx-3">
           <a href="https://ollymods.blogspot.com/" className="nav-link" target="_blank">Blog</a>
         </li>
-        
+        <li className="social"> <a href="https://www.instagram.com/theneoalpha/" ><InstagramIcon/></a>
+        <a href="https://github.com/theneoalpha" ><GitHubIcon/></a>
+        <a href="https://www.linkedin.com/in/vikash-kaushik-08a688240/" ><LinkedInIcon/></a>
+        <a href="https://www.youtube.com/c/TheNeoAlpha"><YouTubeIcon/></a>
+       
+        </li>
         
         
         
@@ -61,6 +71,7 @@ export default function Navbar2() {
         
         
         </ul>
+        
       </form>
     </div>
   </div>

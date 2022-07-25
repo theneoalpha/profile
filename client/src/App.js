@@ -9,13 +9,11 @@ import Home from './components/Home';
 import Skill from './components/Skill';
 import Contact from './components/Contact';
 import Thankyou from './components/Thankyou';
-import Overview from './components/Overview';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-
 
 function App() {
 
@@ -30,8 +28,6 @@ function App() {
             <Route path="/skills" element={<Skill />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/thankyou" element={<Thankyou />} />
-            <Route path="/overview" element={<Overview />} />
-
 
           </Routes>
           {/* <Footer /> */}
