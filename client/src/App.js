@@ -9,13 +9,13 @@ import Home from './components/Home';
 import Skill from './components/Skill';
 import Contact from './components/Contact';
 import Thankyou from './components/Thankyou';
-import  from './components/Thankyou';
+import Overview from './components/Overview';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Overview from './components/Overview';
+
 
 function App() {
 
