@@ -341,7 +341,12 @@ span {
     text-align: center;
 }
 
-
+.boy{
+    display: none;
+}
+.shape{
+    display: none;
+}
   
 
 
@@ -380,98 +385,8 @@ span {
     .image img{
         height: 80%;
     }
+}
     
-
-
-
-@media screen and (max-width: 468px)  {
-    
-   
-  
-  }
-  
-  #menuToggle input:checked ~ ul
-  {
-    transform: none;
-  }
-  
-  
-  
-  .navigation{
-      left: 3rem;
-      top: 6rem;
-      
-  }
-  #menu{
-      background: #05010514;
-      display: flex;
-
-
-      color: #ffcf2e;
-  }
-  nav ul{
-      display: none;
-  }
-  nav ul li{
-    margin: 16px 11px;
-  } */ */ */
-.myskills{
-    top: 36vh;
-}
-
-.hero{
-    overflow-x: hidden;
-}
-.wrapper{
-    position: absolute;
-    margin-left: 15vh;
-    margin-top: 0;
-}.detail{
-    margin-top: 15vh;
-}
-.image img {
-    height: 45vh;
-    width: 49vh;
-}
-.detail h2{
-    font-size: 1.4rem;
-}.detail h1 {
-    font-size: 2.2rem;
-    font-family: 'Baloo Bhaijaan 2';
-}span {
-    font-size: 2.2rem;
-}
-.image{
-    right: 4rem;
-    top: 20vh;
-}
-.myskills{
-    /* height: 866px; */
-    flex-direction: column;
-}
-.skilllist h2{
-    padding: 51px 12px;
-    width: 100%;
-    margin: 12px 0px;
-    text-align: center;
-}.skilllist{
-    width: 100%;
-}
-}
-/* .skillcontent{
-    flex-direction: column;
-} */
-.skills{
-    width: 80%;
-    margin: auto;
-}
-#footer {
-    margin-top: auto;
-    font-size: 0.8rem;
-}
-/* .thirdpage{
-    height: 170vh;
-} */
 @media  screen and (max-width:768px){
     .navbar-toggler-icon{
         margin-left: 0px;
@@ -533,8 +448,111 @@ span {
 nav ul li{
     margin: 5px 11px;
 }
-
+.desktop_boy{
+    display: none;
 }
+.desktop_shape{
+    display: none;
+}
+.shape{
+    display: block;
+}
+.boy{
+    display: block;
+}
+}
+
+
+@media screen and (max-width: 468px)  {
+    
+   
+  
+  }
+  
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+  
+  
+  
+  .navigation{
+      left: 3rem;
+      top: 6rem;
+      
+  }
+  #menu{
+      background: #05010514;
+      display: flex;
+
+
+      color: #ffcf2e;
+  }
+  nav ul{
+      display: none;
+  }
+  nav ul li{
+    margin: 16px 11px;
+  } */ */ */
+.myskills{
+    top: 36vh;
+}
+
+.hero{
+    overflow-x: hidden;
+}
+.wrapper{
+    position: absolute;
+    margin-left: 15vh;
+    margin-top: 0;
+}
+/* .detail{
+    margin-top: 15vh;
+} */
+.image img {
+    height: 45vh;
+    width: 49vh;
+}
+.detail h2{
+    font-size: 1.4rem;
+}.detail h1 {
+    font-size: 2.2rem;
+    font-family: 'Baloo Bhaijaan 2';
+}span {
+    font-size: 2.2rem;
+}
+.image{
+    right: 4rem;
+    top: 20vh;
+}
+.myskills{
+    /* height: 866px; */
+    flex-direction: column;
+}
+.skilllist h2{
+    padding: 51px 12px;
+    width: 100%;
+    margin: 12px 0px;
+    text-align: center;
+}.skilllist{
+    width: 100%;
+}
+
+/* .skillcontent{
+    flex-direction: column;
+} */
+.skills{
+    width: 80%;
+    margin: auto;
+}
+#footer {
+    margin-top: auto;
+    font-size: 0.8rem;
+}
+/* .thirdpage{
+    height: 170vh;
+} */
+
  
   @media  screen and (max-width:417px) and (min-width:410px){.skilllist { height: 404px;}}@media  screen and (max-width:413px){#menu{width: 422;}.skilllist {height: 416px;}}@media  screen and (max-width:376px) and (min-width: 365px){.skilllist {height: 404px;}}@media  screen and (max-width:362px){.skilllist {height: 400px;}#menuToggle a {padding: -0.3000000000000007rem;}}  @media  screen and (max-width:394px) and (min-width:390px){.skilllist {height: 400px;}}
   @media  screen and (max-width:417px) {
